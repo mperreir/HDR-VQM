@@ -2,7 +2,7 @@
 
 (released July. 2015)
 
-
+This code depends on hdrtoolbox (https://github.com/banterle/HDR_Toolbox) and HDRITools version 0.4 (https://github.com/edgarv/hdritools ). They must be installed and added to you matlab path for this code to run fine (hdrtoolbox for HDR files opening and HDRITools for EXR files opening).
 
 ### General  instructions
 
