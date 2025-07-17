@@ -18,8 +18,8 @@ Before running HDR-VQM you should carefull read the configuration file `config_h
 
 - `cfg_hdrvqm.do_adapt` 
   - should be set to `none` if you content is already display processed. That is to say it it contains luminance values that correspond to what was really displayed to the user.
-  - If your content does not containes display processed value you can use `libnear`. It will linealy scale the luminance values of all frames so that the maximum over is `cfg_hdrvqm.max_display`.
-- `cfg_hdrvqm.rows_display` , `cfg_hdrvqm.columns_display`, `cfg_hdrvqm.area_display`, `cfg_hdrvqm.max_display` and `cfg_hdrvqm.min_display` shoudl be set according to the caracteristics of the display used. The default value included in the config file are only valid for the SIM2 HDR display taht we used for our experiments.
+  - If your content does not contain display processed value you can use `linear`. It will linearly scale the luminance values of all frames so that the maximum over is `cfg_hdrvqm.max_display`.
+- `cfg_hdrvqm.rows_display` , `cfg_hdrvqm.columns_display`, `cfg_hdrvqm.area_display`, `cfg_hdrvqm.max_display` and `cfg_hdrvqm.min_display` should be set according to the caracteristics of the display used. The default value included in the config file are only valid for the SIM2 HDR display that we used for our experiments.
 - `cfg_hdrvqm.viewing_distance` should be set according to **your** viewing conditions.
 - `cfg_hdrvqm.frame_rate` should be set to the framerate of your videos. It is needed in order to know how many frames are viewed during `cfg_hdrvqm.fixation_time`. 
 
